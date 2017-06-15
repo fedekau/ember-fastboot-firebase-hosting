@@ -20,3 +20,5 @@ testem.log
 functions/dist
 functions/dist2 # dont ask :(
 functions/node_modules
+
+.firebaserc

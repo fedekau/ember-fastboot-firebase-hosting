@@ -16,7 +16,7 @@
     "build:client": "ember build -prod",
     "build:server": "ember build --output-path=functions/dist && ember build --output-path=functions/dist2 -prod && npm run copy_server",
     "copy_server": "cp -r functions/dist2/assets/* functions/dist/assets && cp -R functions/dist2/ember-fetch/* functions/dist/ember-fetch",
-    "clean:server": "rm -rf functions/dist2 && rm dist/index.html ",
+    "clean": "rm -rf functions/dist2 && rm dist/index.html"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
